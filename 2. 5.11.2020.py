@@ -1,0 +1,5 @@
+n= int(input())
+sat= int(n/3600)
+minut  = int((n%3600)/60)
+sek=int(n%60)
+print(sat,"sati", minut,"minuta", sek,"sekundi")
